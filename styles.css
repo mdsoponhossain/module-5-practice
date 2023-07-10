@@ -98,11 +98,16 @@ nav a {
 
 /* main section design */
 /* section design */
+main {
+    max-width: 1140px;
+    margin: auto
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin:123px 0px;
+    margin: 123px 0px;
 }
 
 .section-title {
@@ -118,7 +123,107 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.about-info {
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 15px;
+    color: #757575;
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+
+
+}
+
+.about-info-container {
+    display: flex;
+}
+
+.info-description {
+    margin-bottom: 3px;
+
+}
+
+.info-title {
+    margin-top: 3px;
+}
+
+.about-infor {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.info-description-what {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+section-title-div{
+    margin-bottom: 8px;
+}
+
+
+/* <!-- the most complex part resume summary part --> */
+main section{
+    margin-top:130px;
+}
+.parent{
+    display: flex;
+    gap:100px;
+}
+.child{
+    justify-content: space-between;
+}
+.bb{
+    justify-content: center;
+    margin-right: 20px;
+}
+hr{
+    margin:0px 30px;
+}
+.cv-btn{
+   text-align:center;margin-top: 50px;
+
+}
+/* footer styles */
+footer{
+    display:flex;background: #FFF8F3;
+    padding:130px 230px;
+    margin-top:100px;
+    gap:100px;
     
-
-
+}
+.footer-colum{
+    width: 50%;
+}
+.block input[type="text"] ,input[type="email"],textarea{
+    display:block;
+    margin-bottom: 25px;
+    padding:18px 30px;
+    color:#757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border:0;
+    width: 100%;
+}
+.social-links a {
+    margin-right: 25px;
 }
