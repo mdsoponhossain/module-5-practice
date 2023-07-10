@@ -8,7 +8,10 @@ body {
 
 /* nav related styles */
 nav {
-    display: flex;justify-content: space-between;align-items:center;margin:0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
 }
 
 .header-nav {
@@ -22,7 +25,8 @@ span {
 }
 
 nav>ul {
-    display: flex; align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -39,19 +43,82 @@ nav a {
 #btn-primary {
     background-color: #FD6E0A;
     color: #FFF;
-    font-size: 20px;padding:18px 35px;
-    font-weight: 700;border:none
+    font-size: 20px;
+    padding: 18px 35px;
+    font-weight: 700;
+    border: none
+}
+
+/* header related styles */
+.header {
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* banner desigm */
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 500px
+}
+
+.banner-content {
+    max-width: 585px;
 
 }
-/* header related styles */
-.header{
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section design */
+/* section design */
+.about {
+    padding: 130px;
+    border-radius: 10px;
     background: #FFF8F3;
+    margin:123px 0px;
 }
-/* banner desigm */
-.banner{
-    padding:30px 30px 30px 150px;
-    display:flex;align-items: center;
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.profile-pic{
-    width:500px
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+
+
 }
